@@ -1,27 +1,117 @@
+
+html{
+	font-family: 'Lato', sans-serif;
+}
+
+.mainDetails {
+	border-bottom: 2px solid #cf8a05
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #f3f3f3;
+}
+section {
+	border-top: 1px solid #dedede
+	}
 .clear {
 	clear: both;
+	color: #dedede
+}
+#headshot img {
+	width: 9.5%;
+	float: left;
+	margin-left: 100px;
+	border-radius: 50%;
 }
 
-#headshot {
-	width: 12.5%;
+#name  {
 	float: left;
-	margin-right: 30px;
-}
-
-#name {
-	float: left;
+	margin-left: 30px;
+	
 }
 
 #contactDetails {
 	float: right;
+	color: #181818;
+	
 }
 
-.sectionTitle {
+a[href="mailto:joe@bloggs.com"] {
+	color: #181818;
+	margin-right: 150px;
+	
+}
+a[href="http://www.bloggs.com"]{
+	color: #181818;
+	margin-right: 150px;
+}
+.sectionTitle { 
+	margin-bottom: 10px;
 	float: left;
-	width: 25%;
+	font-family: 'Rokkitt', sans-serif;
+	color: #cf8a05	
+}
+.sectionTitle h1 {
+	font-size: 30px;
+	margin: 20px 0px 0px 100px;
+	font-style: italic;
+}
+.sectionContent {
+	
+	font-size: 20px;
+	line-height: 25px;
+	float: right;
+	width: 70.0%;
+	color: #444444
+	
+	}
+	.subDetails{
+		font-size: 15px;
+		font-style: italic;
+	}
+.keySkills li {	
+width:250px;
+height: 20px;
+text-align: justify;
+display: inline-block;
+margin: auto;
+padding-right: 0px;
+}
+.keySkills .primeira{
+
+	margin-right: 0px;
+	padding-right: 0px;
+}
+.keySkills .segunda{
+	margin-right: 0px;
 }
 
-.sectionContent {
-	float: right;
-	width: 72.5%;
+.keySkills .terceira{
+	margin-right: 0px;
+}
+
+.keySkills .quarta{
+	margin-right: 0px;
+}
+
+.keySkills .quinta{
+	margin-right: 0px;
+}
+
+.keySkills .sexta{
+	margin-right: 0px;
+}
+.keySkills .sexta{
+
+margin-right: 0px;
+}
+
+.keySkills .setima{
+	margin-right: 0px;
+}
+
+.keySkills .oitava{
+	margin-right: 0px;
+	
 }
