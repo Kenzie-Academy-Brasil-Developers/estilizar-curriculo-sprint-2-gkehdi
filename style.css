@@ -4,7 +4,10 @@ html{
 }
 
 .mainDetails {
+	
 	border-bottom: 2px solid #cf8a05
+	
+	
 }
 
 body {
@@ -19,15 +22,19 @@ section {
 	color: #dedede
 }
 #headshot img {
-	width: 9.5%;
+	width: 10%;
 	float: left;
 	margin-left: 100px;
+	margin-bottom: 30px;
 	border-radius: 50%;
 }
 
 #name  {
+	font-size: 25px;
+	font-family: 'Rokkitt', sans-serif;
 	float: left;
 	margin-left: 30px;
+	line-height: 10px;
 	
 }
 
@@ -66,9 +73,18 @@ a[href="http://www.bloggs.com"]{
 	color: #444444
 	
 	}
+
+	.sectionContent h2{
+		font-family: 'Rokkitt', sans-serif;
+
+
+}
+	
 	.subDetails{
+		
 		font-size: 15px;
 		font-style: italic;
+		
 	}
 .keySkills li {	
 width:250px;
